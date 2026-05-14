@@ -30,3 +30,22 @@ INSERT INTO Enrollment VALUES
 (404, 103, 303, '2026-01-12', 'B+'),
 (405, 104, 304, '2026-01-13', 'A-'),
 (406, 105, 302, '2026-01-14', 'B');
+
+SELECT * FROM Student;
+
+SELECT * FROM Course;
+
+SELECT * FROM Instructor;
+
+SELECT * FROM Department;
+
+SELECT * FROM Enrollment;
+
+SELECT 
+    Student.student_id,
+    Student.first_name,
+    Student.last_name,
+    Department.department_name
+FROM Student
+JOIN Department
+ON Student.department_id = Department.department_id;
