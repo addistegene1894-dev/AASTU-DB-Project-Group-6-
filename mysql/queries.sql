@@ -16,3 +16,9 @@ INSERT INTO Student VALUES
 (103, 'Dawit', 'Kassa', 'dawit@gmail.com', '0911445566', '2001-07-10', 1),
 (104, 'Bethel', 'Mulu', 'bethel@gmail.com', '0911556677', '2004-01-17', 3),
 (105, 'Nahom', 'Teklu', 'nahom@gmail.com', '0911667788', '2002-05-25', 4);
+
+INSERT INTO Course VALUES
+(301, 'Database Systems', 3, 201),
+(302, 'Networking', 4, 202),
+(303, 'Operating Systems', 3, 203),
+(304, 'Machine Learning', 4, 204);
