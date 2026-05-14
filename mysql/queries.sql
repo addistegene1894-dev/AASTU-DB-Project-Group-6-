@@ -49,3 +49,12 @@ SELECT
 FROM Student
 JOIN Department
 ON Student.department_id = Department.department_id;
+SELECT
+    Course.course_id,
+    Course.course_name,
+    Course.credit_hour,
+    Instructor.first_name,
+    Instructor.last_name
+FROM Course
+JOIN Instructor
+ON Course.instructor_id = Instructor.instructor_id;
