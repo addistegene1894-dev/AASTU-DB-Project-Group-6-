@@ -1,1 +1,11 @@
 
+Department": [
+    {
+      "department_id": 1,
+      "department_name": "Computer Science"
+    },
+    {
+      "department_id": 2,
+      "department_name": "Software Engineering"
+    }
+  ],
