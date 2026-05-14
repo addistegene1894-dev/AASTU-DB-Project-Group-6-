@@ -1,0 +1,57 @@
+
+Department": [
+    {
+      "department_id": 1,
+      "department_name": "Computer Science"
+    },
+    {
+      "department_id": 2,
+      "department_name": "Software Engineering"
+    }
+  ],
+
+Student": [
+    {
+      "student_id": 101,
+      "first_name": "Abel",
+      "last_name": "Tadesse",
+     "email": "abel@gmail.com",
+      "department_id": 1
+    },
+    {
+      "student_id": 102,
+      "first_name": "Meron",
+      "last_name": "Ali",
+      "email": "meron@gmail.com",
+      "department_id": 2
+    }
+  ],
+
+  "Instructor": [
+    {
+      "instructor_id": 201,
+      "first_name": "Bekele",
+      "last_name": "Alemu",
+      "department_id": 1
+    }
+  ],
+
+  "Course": [
+    {
+      "course_id": 301,
+      "course_name": "Database Systems",
+      "credit_hour": 3,
+      "instructor_id": 201
+    }
+  ],
+
+  "Enrollment": [
+    {
+      "enrollment_id": 401,
+      "student_id": 101,
+      "course_id": 301,
+      "grade": "A"
+    }
+  ]
+      }
+        
