@@ -26,3 +26,32 @@ Student": [
       "department_id": 2
     }
   ],
+
+  "Instructor": [
+    {
+      "instructor_id": 201,
+      "first_name": "Bekele",
+      "last_name": "Alemu",
+      "department_id": 1
+    }
+  ],
+
+  "Course": [
+    {
+      "course_id": 301,
+      "course_name": "Database Systems",
+      "credit_hour": 3,
+      "instructor_id": 201
+    }
+  ],
+
+  "Enrollment": [
+    {
+      "enrollment_id": 401,
+      "student_id": 101,
+      "course_id": 301,
+      "grade": "A"
+    }
+  ]
+      }
+        
