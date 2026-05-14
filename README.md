@@ -8,13 +8,12 @@ course:database system
 Department: Software Engineering, AASTU
 
 ## Group Memebers
-   NAME                                            ID NUMBER
-               1 . Addis Tegene    ………………………………………ETS0097/17 
-               2. Amanuel  Alemayehu …………………………………ETS0144/17
-               3. Amensisa  Geremew ………………………………… ETS0169/17
-               4. Abel Gebregziabher……………………………………ETS0028/17
-               5. Birhanu Liku……………………………………………...ETS0321/17
-               6.Dawit Woldtinsae……………………………………….ETS0428/17 
+1 . Addis Tegene(ETS0097/17) <br>
+2. Amanuel  Alemayehu(ETS0144/17)<br>
+3. Amensisa  Geremew (ETS0169/17)<br>
+4. Abel Gebregziabher(ETS0028/17)<br>
+5. Birhanu Liku(ETS0321/17)<br>
+6.Dawit Woldtinsae(ETS0428/17) <br>
 ## Project Description
 This project involves the design and implementation of a Student Management System for Addis Ababa Science and Technology University. The system is designed to transition from traditional manual data management to a computerized database approach to resolve issues such as data redundancy, inconsistency, and ineffective search capabilities.  
 Core ObjectivesData :
