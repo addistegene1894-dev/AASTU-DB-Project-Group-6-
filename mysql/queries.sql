@@ -58,3 +58,30 @@ SELECT
 FROM Course
 JOIN Instructor
 ON Course.instructor_id = Instructor.instructor_id;
+SELECT
+    Student.first_name,
+    Student.last_name,
+    Course.course_name,
+    Enrollment.grade
+FROM Enrollment
+JOIN Student
+ON Enrollment.student_id = Student.student_id
+JOIN Course
+ON Enrollment.course_id = Course.course_id;
+
+SELECT COUNT(*) AS Total_Students
+FROM Student;
+
+SELECT COUNT(*) AS Total_Courses
+FROM Course;
+
+UPDATE Student
+SET phone = '0911998877'
+WHERE student_id = 101;
+
+DELETE FROM Enrollment
+WHERE enrollment_id = 406;
+
+SELECT *
+FROM Student
+WHERE student_id = 102;
