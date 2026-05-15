@@ -1,5 +1,5 @@
 
-Department": [
+"Department": [
     {
       "department_id": 1,
       "department_name": "Computer Science"
@@ -10,7 +10,7 @@ Department": [
     }
   ],
 
-Student": [
+"Student": [
     {
       "student_id": 101,
       "first_name": "Abel",
